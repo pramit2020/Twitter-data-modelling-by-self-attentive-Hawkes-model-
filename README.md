@@ -1,1 +1,1 @@
-Here we pulled some tweets from the Twitter API and used a self-attentive Hawkes model to fit the data. 
+In this repo, we pulled some tweets from the Twitter API and used a self-attentive Hawkes model to fit the data. The Hawkes model explains the self-exciting nature of the process and we borrow tools from deep learning, such as transformers and self-attentive models to model the intensity. Finally, the process is fitted using maximum likelihood estimation by writing a PyTorch optimization module. 
